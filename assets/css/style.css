@@ -1,0 +1,137 @@
+
+* {
+	margin: 0;
+}
+html {
+	margin: 0;
+	padding: 0;
+	font-size: 62.5%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+	color: #FFFFFF;
+	overflow-x: hidden;
+	
+}
+
+header {
+	background-color: #000000;
+	text-align: center;
+	margin: 0;
+	padding: 0.7rem;
+	}
+	
+h1 {
+	font-size: 4rem;
+	font-weight: 500;
+	color: #FFFFFF;
+	
+	
+}
+.hero-section {
+	width: 100%;
+	background-color: #000000;
+}
+
+.hero-section img {
+	width: 100vw;
+}
+.summary {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	background-color:#000000;
+	padding: 60px;
+}
+ .description {
+ 	text-align: left;
+	font-weight: 300;
+	font-size: 1.6rem;
+	width: 30vw;
+	
+	
+	
+ }
+ .description p {
+ 	margin-bottom: 2rem;
+ }
+ .summary img {
+ 	width: 30vw;
+	
+	
+ }
+ .features {
+ 	background-color: #1E1A13;
+	display: flex;
+	justify-content: center;
+	padding: 60px;
+ }
+ 
+ .features_container {
+ 	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 70%;
+	
+ }
+ 
+ .features h2 {
+ 	font-size: 4rem;
+	font-weight: 500;
+	margin-top: 0;
+	
+ }
+ 
+ .features_icons {
+ 	display: flex;
+	justify-content: space-between;
+	width: 70%;
+	margin: 5rem 0 0 10rem;
+ }
+ 
+ .feature {
+ 	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-size: 2.4rem;
+	font-weight: 300;
+	align-items: center;
+ }
+ .feature i {
+ 	width: 4rem;
+	justify-self: center;
+ }
+ 
+ .feature p {
+ 	margin: 1.5rem 0;
+ }
+ .gallery {
+ 	background-color: #000000;
+	display: flex;
+	justify-content: center;
+	padding: 60px;
+	
+	
+ }
+ 
+ .gallery_container {
+ 	display: flex;
+	justify-content: space-between;
+	width: 90%;
+ }
+ .gallery img {
+ 	width: 25vw;
+ }
+ footer {
+ 	background-color: #1E1A13;
+	text-align: center;
+	font-weight: 300;
+ }
+ footer p {
+ 	padding: 4rem;
+	font-size: 2rem;
+ }
